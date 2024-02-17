@@ -1,0 +1,44 @@
+.label {
+  color: var(--color-midnight-gray);
+  display: block;
+  font-family: var(--color-work-sans);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.datePicker {
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #e9eef2;
+  box-sizing: border-box;
+  color: var(--color-purple-gray);
+  display: flex;
+  font-family: var(--font-rubik);
+  font-size: 24px;
+  gap: 16px;
+  height: 62px;
+  justify-content: space-between;
+  padding: 12px;
+  transition: all 0.3s;
+}
+
+.date {
+  text-align: center;
+}
+
+.month {
+  font-family: var(--font-rubik);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.year {
+  font-family: var(--font-work-sans);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}

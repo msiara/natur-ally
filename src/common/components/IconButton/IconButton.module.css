@@ -1,0 +1,27 @@
+.iconButton {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  padding: 0;
+  transition: all 0.3s;
+  width: 24px;
+}
+
+.iconButton:hover {
+  background-color: #f3f5fe;
+}
+
+.iconButton:active {
+  background-color: #e8eaf2;
+}
+
+.iconButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.iconButton:disabled:hover {
+  background-color: transparent;
+}

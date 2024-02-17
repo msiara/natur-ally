@@ -1,0 +1,24 @@
+@import 'reset-css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --color-midnight-gray: #4d6475;
+  --color-gray: #888888;
+  --color-salmon: #ffdbcb;
+  --color-midnight-purple: #423c66;
+  --color-purple-gray: #474a62;
+  --color-stroke: #474a62;
+  --color-background: #f4f8fa;
+  --color-white: #ffffff;
+
+  --font-work-sans: 'Work Sans';
+  --font-inter: 'Inter';
+  --font-rubik: 'Rubik';
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-work-sans);
+}

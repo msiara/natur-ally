@@ -1,0 +1,37 @@
+.totalAmount {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 0 16px;
+}
+
+.label {
+  color: #1e2a32;
+  font-family: var(--font-work-sans);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.value {
+  color: var(--color-purple-gray);
+  font-family: var(--font-inter);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.infoBox {
+  background-color: var(--color-background);
+  border-radius: 5px;
+  font-family: var(--font-work-sans);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  padding: 24px 16px;
+
+  span {
+    font-family: var(--font-inter);
+    font-weight: 700;
+  }
+}
