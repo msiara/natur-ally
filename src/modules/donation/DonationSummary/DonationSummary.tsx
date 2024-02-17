@@ -16,7 +16,7 @@ export default function DonationSummary({
   });
 
   return (
-    <>
+    <div className={styles.donationSummary}>
       <div className={styles.totalAmount}>
         <div className={styles.label}>Total amount</div>
         <div className={styles.value} data-testid="donationTotalAmount">
@@ -30,6 +30,6 @@ export default function DonationSummary({
         <span data-testid="donationDate">{format(date, 'MMMM yyyy')}</span>.
         Thank you!
       </div>
-    </>
+    </div>
   );
 }

@@ -22,3 +22,9 @@ body {
   background-color: var(--color-background);
   font-family: var(--font-work-sans);
 }
+
+@media (max-width: 600px) {
+  body {
+    background-color: var(--color-white);
+  }
+}

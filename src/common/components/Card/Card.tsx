@@ -1,4 +1,5 @@
 import GivingBlock from '../../../assets/giving-block.svg';
+import IconButton from '../IconButton';
 import { CardProps } from './Card.types';
 
 import styles from './Card.module.css';
@@ -7,6 +8,7 @@ export default function Card({ children }: CardProps) {
   return (
     <div className={styles.card}>
       <div className={styles.header}>
+        <IconButton className={styles.close} iconName="close" />
         <img src={GivingBlock} alt="Giving Block" />
         <div>
           <h2 className={styles.title}>The giving block</h2>

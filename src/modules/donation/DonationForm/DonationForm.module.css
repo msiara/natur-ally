@@ -14,3 +14,17 @@
 .action {
   margin: 8px;
 }
+
+@media (max-width: 600px) {
+  .fields {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    grid-template-columns: 1fr;
+  }
+
+  .action:first-child {
+    display: none;
+  }
+}

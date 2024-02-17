@@ -20,3 +20,13 @@
   margin-top: 144px;
   max-width: 600px;
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  .content {
+    margin: 0;
+  }
+}

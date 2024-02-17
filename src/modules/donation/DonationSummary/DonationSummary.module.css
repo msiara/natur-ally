@@ -1,10 +1,13 @@
+.donationSummary {
+  margin-bottom: 32px;
+}
+
 .totalAmount {
   align-items: center;
   display: flex;
   gap: 24px;
   justify-content: space-between;
-  margin-bottom: 24px;
-  padding: 0 16px;
+  padding: 0 16px 24px 16px;
 }
 
 .label {
@@ -27,11 +30,33 @@
   font-family: var(--font-work-sans);
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 32px;
   padding: 24px 16px;
 
   span {
     font-family: var(--font-inter);
     font-weight: 700;
+  }
+}
+
+@media (max-width: 600px) {
+  .donationSummary {
+    border-radius: 5px;
+    border: 1px solid #e9eef2;
+  }
+
+  .totalAmount {
+    padding-top: 24px;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+
+  .value {
+    font-size: 24px;
+  }
+
+  .infoBox {
+    text-align: center;
   }
 }
