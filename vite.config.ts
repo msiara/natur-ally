@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/natru-ally/',
+  base: '/natur-ally/',
   plugins: [react()],
   test: {
     globals: true,
